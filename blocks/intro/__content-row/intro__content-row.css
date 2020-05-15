@@ -1,0 +1,13 @@
+.intro__content-row {
+    width: 928px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto 35px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__content-row {
+        width: 100%;
+    }
+}

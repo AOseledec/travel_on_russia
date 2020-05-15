@@ -1,0 +1,32 @@
+@import url(./__title/emblem__title.css);
+@import url(./__item/emblem__item.css);
+@import url(./__field/emblem__field.css);
+
+.emblem {
+    position: relative;
+    margin: 0 auto 85px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1490px){
+    .emblem {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 1279px){
+    .emblem {
+        width: calc(100% - 76px);
+    }
+}
+
+@media screen and(max-width: 1023px) {
+    .emblem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .emblem {     
+        width: 288px;
+    }
+}

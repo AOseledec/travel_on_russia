@@ -1,0 +1,33 @@
+.intro__text_artical {
+    width: 683px;
+
+    font-size: 14px;
+    line-height: 24px;
+
+    margin: 0 18px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text_artical {
+        width: 720px;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text_artical {
+        font-size: 16px;
+        line-height: 27px;
+        order: 2;
+        margin-right:0;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .intro__text_artical {
+        font-size: 18px;
+        line-height: 30px;
+
+        order: 2;
+    }
+}

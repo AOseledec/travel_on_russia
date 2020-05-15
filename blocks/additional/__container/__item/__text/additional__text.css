@@ -1,0 +1,26 @@
+.additional__text {
+    position: absolute;
+    bottom: 30px;
+    
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    z-index: 1;
+    margin: auto 18px 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1441px) {
+    .additional__text {
+        bottom: 16px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 1023px) {
+    .additional__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url(./comment/comment.css);
+
+.comments__container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .comments__container {
+        width: 382px;
+        margin: 0 auto 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__container {
+        flex-wrap: wrap;
+    }
+}

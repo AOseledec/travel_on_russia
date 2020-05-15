@@ -1,0 +1,14 @@
+@import url(./__item/video__item.css);
+@import url(./__item-bg/video__item-bg.css);
+
+.video__container{
+    display: flex;
+    margin: 0 auto;   
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .video__container{
+        flex-wrap: wrap;
+    }
+}

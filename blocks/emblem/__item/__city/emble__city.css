@@ -1,0 +1,20 @@
+.emblem__city {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #CCCCCC;
+}
+
+@media screen and (max-width: 767px) {
+    .emblem__city {
+        width: 208px;
+        font-size: 24px;
+        line-height: 26px;
+        margin: 35px auto 0;
+        margin-left: -11px;
+    }
+}

@@ -1,0 +1,35 @@
+.additional__heading {
+    position: absolute;
+
+    font-family: Inter;
+    font-size: 27px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    z-index: 1;
+    margin: 30px 18px;
+}
+
+@media screen and (max-width: 1279px) {
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+    
+        margin: 24px 16px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+.additional__heading {
+        font-size: 27px;
+        line-height: 29px;
+    
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}

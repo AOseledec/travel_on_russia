@@ -1,0 +1,19 @@
+@import url(./__container/additional__container.css);
+@import url(./__content-subtitle/additional__content-subtitle.css);
+@import url(./__title/additional__title.css);
+
+.additional {
+    margin: 0 auto 102px;
+}
+
+@media screen and (max-width: 1023px) {
+    .additional {
+        margin: 0 auto 145px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .additional {
+        margin: 0 auto 64px;
+    }
+}

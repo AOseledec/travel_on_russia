@@ -1,0 +1,48 @@
+.cover-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover:hover .cover-bg {
+    opacity: 0.8;
+}
+
+.cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover img {
+        height: 591px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover img {
+        height: 272px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cover img {
+        height: 216px;
+    }
+}

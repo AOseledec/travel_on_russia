@@ -1,0 +1,38 @@
+.video__item-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 583px;
+    height: 323px;
+
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1279px) {
+    .video__item-image {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__item-image {
+        width: 352px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .video__item-image{
+        width: 343px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+    .video__item-image {
+        width: 288px;
+        height: 192px;
+    }
+}

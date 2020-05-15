@@ -1,0 +1,27 @@
+.intro__text_author {
+    width: 220px;
+
+    font-size: 10px;
+    line-height: 16px;
+
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text_author {
+        width: 283px;
+        margin-bottom: 39px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text_author {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .intro__text_author {
+        margin-bottom: 24px;
+    }
+}

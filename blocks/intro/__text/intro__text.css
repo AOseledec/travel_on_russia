@@ -1,0 +1,10 @@
+@import url(./_artical/intro__text_artical.css);
+@import url(./_author/intro__text_author.css);
+@import url(./_bold/intro__text_bold.css);
+@import url(./_facts/intro__text_facts.css);
+@import url(./_list/intro__text_list.css);
+
+.intro__text {
+    font-family: Inter;
+    color: #FFFFFF;
+}

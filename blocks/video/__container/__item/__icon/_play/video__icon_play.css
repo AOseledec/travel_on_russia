@@ -1,0 +1,29 @@
+.video__icon_play {
+    position: absolute;
+    height: 41px;
+
+    object-fit: cover;
+    object-position: top;
+
+    z-index: 1;
+
+    margin: 30px 0 auto 30px;
+}
+
+@media screen and (max-width: 1023px) {
+    .video__icon_play {    
+        margin: 25px 0 auto 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__icon_play {    
+        margin: 24px 0 auto 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__icon_play {    
+        margin: 16px 0 auto 16px;
+    }
+}

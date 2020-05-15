@@ -1,0 +1,21 @@
+@import url(./__item/additional__item.css);
+
+.additional__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .additional__container {
+        width: 584px;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .additional__container {
+        width: 284px;
+    }
+}
